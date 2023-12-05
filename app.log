@@ -1,0 +1,63 @@
+{"level":"info","message":"\u001b[1m\u001b[36mServer Listening at PORT 4000 in development mode\u001b[39m\u001b[22m"}
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m {"timestamp":"2023-12-05T19:22:21.035Z"}
+info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
+2023-12-05T19:27:32.770Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:27:55.125Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:28:10.241Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:28:28.665Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:28:28.694Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:29:52.052Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:29:52.075Z info: [1m[32mMongoDB connected[39m[22m - 
+[32m2023-12-05T19:30:01.704Z info: [1m[36mServer Listening at PORT 4000 in development mode[32m[22m - [39m
+[32m2023-12-05T19:30:01.726Z info: [1m[32mMongoDB connected[32m[22m - [39m
+2023-12-05T19:32:53.496Z [32MINFO[39M: [32m[1m[36mServer Listening at PORT 4000 in development mode[32m[22m[39m - 
+2023-12-05T19:32:53.521Z [32MINFO[39M: [32m[1m[32mMongoDB connected[32m[22m[39m - 
+2023-12-05T19:33:11.942Z [32MINFO[39M: [32m[1m[36mServer Listening at PORT 4000 in development mode[32m[22m[39m - 
+2023-12-05T19:33:11.969Z [32MINFO[39M: [32m[1m[32mMongoDB connected[32m[22m[39m - 
+2023-12-05T19:33:23.964Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:33:23.984Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:33:44.705Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:33:44.726Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:35:25.351Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:35:25.369Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:35:51.312Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:35:51.342Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:36:40.043Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:36:56.780Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:36:56.799Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:37:35.369Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T19:37:35.389Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:53:15.157Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-05T19:53:15.276Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:53:15.302Z error: Error in register_user controller: User with the email: alice@example5.com already exists - 
+2023-12-05T19:54:07.816Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-05T19:54:07.876Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:55:20.727Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-05T19:55:20.776Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:55:20.796Z error: Error in register_user controller: User with the email: alice@example7.com already exists - 
+2023-12-05T19:55:42.888Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-05T19:55:42.939Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T19:57:17.641Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-05T19:57:17.720Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:02:40.027Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T20:02:40.048Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:03:09.752Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T20:03:09.770Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:03:19.840Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T20:03:19.863Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:03:56.945Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T20:03:56.966Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:04:03.884Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-05T20:04:03.940Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:08:32.835Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T20:08:32.852Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:09:21.984Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-05T20:09:22.002Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-05T20:09:52.768Z info: [1m[36mServer Listening at PORT 4000 in production mode[39m[22m - 
+2023-12-05T20:09:52.817Z info: [1m[32mMongoDB connected[39m[22m - 
