@@ -9,6 +9,7 @@ import hpp from "hpp"
 import cors from "cors"
 import { connectDB } from "./config/db"
 import authRouter from "./routes/auth"
+import postRouter from './routes/post'
 import csurf from 'csurf'
 import cookieParser from 'cookie-parser'
 import logger from "./utils/common/logger"
@@ -48,7 +49,8 @@ const limiter = rateLimit({
 app.use(limiter)
 
 //Routes
-app.use(`${SB_URI}/`, authRouter)
+app.use(`${SB_URI}`, authRouter)
+app.use(`${SB_URI}/`, postRouter)
 
 app.all("*", async (req: Request, res: Response, next: NextFunction) => {
     return res.status(404).json({

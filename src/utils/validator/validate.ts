@@ -1,4 +1,5 @@
 import Joi from 'joi';
+import { IPostDetails } from '../../interfaces/post';
 import { IAddressDetails, IPhoneDetails, IUserDetails } from '../../interfaces/user';
 import { UserRole } from '../enums';
 
@@ -74,3 +75,19 @@ export const userLoginValidator = Joi.object<IUserDetails>({
         'string.max': 'Password must not exceed 15 characters.',
     })
 })
+
+export const postValidator = Joi.object<IPostDetails>({
+    title: Joi.string().required().messages({
+        'any.required': 'Title is required.',
+        'string.empty': 'Title cannot be empty.',
+    }),
+    desc: Joi.string().required().messages({
+        'any.required': 'Description is required.',
+        'string.empty': 'Description cannot be empty.',
+    }),
+    is_offensive: Joi.boolean().default(false),
+    report: Joi.boolean().default(false),
+    user: Joi.string().guid().messages({
+        'string.guid': 'User ID must be a valid UUID.',
+    }),
+});

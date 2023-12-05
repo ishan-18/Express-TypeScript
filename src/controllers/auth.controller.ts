@@ -177,13 +177,13 @@ export class AuthController {
                 status: true,
                 data: user
             })
-            
+
         } catch (error: any) {
             logger.error(`Error in resetPassword: ${error.message}`);
-            res.status(400).json({ 
-                success: false, 
-                msg: error.message 
+            res.status(400).json({
+                success: false,
+                msg: error.message
             });
         }
-    }
+    } 
 }
