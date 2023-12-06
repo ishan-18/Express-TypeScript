@@ -12,7 +12,7 @@ export class PostDao {
             is_offensive: true
         }, {
             new: true
-        }).populate('user').exec();
+        }).populate('user', '_id name email').exec();
     }
 
     static async createPost(postDetails: IPostDetails): Promise<IPostDetails> {

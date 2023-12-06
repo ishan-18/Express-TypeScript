@@ -8,11 +8,11 @@ describe('Registration Route', () => {
             .post(`${SB_URI}/${API_VERSION}/register`)
             .send({
                 name: "Alice Smith",
-                email: "alice@example30.com",
+                email: "alice@example65.com",
                 password: "alice@12345",
                 phone: {
                     country_isd_code: "+91",
-                    number: "9999499953"
+                    number: "9999439953"
                 },
                 address: {
                     street: "string",
@@ -33,11 +33,11 @@ describe('Registration Route', () => {
             .post(`${SB_URI}/${API_VERSION}/register`)
             .send({
                 name: "Alice Smith",
-                email: "alice@example41.com",
+                email: "alice@example66.com",
                 password: "alice@12345",
                 phone: {
                     country_isd_code: "+91",
-                    number: "8999999943"
+                    number: "89499697943"
                 },
                 address: {
                     street: "string",

@@ -196,3 +196,79 @@ info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
 2023-12-05T22:19:13.456Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
 2023-12-05T22:19:13.470Z info: [1m[32mMongoDB connected[39m[22m - 
 2023-12-05T22:20:25.954Z error: Error in User Login: User not found with email: alice@example4.com - 
+2023-12-06T03:48:11.317Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T03:48:11.344Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:48:18.207Z info: [1m[36mServer Listening at PORT 4000 in production mode[39m[22m - 
+2023-12-06T03:48:18.230Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:48:26.196Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-06T03:48:26.338Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:48:26.580Z error: Error in register_user controller: User with the email: alice@example10.com already exists - 
+2023-12-06T03:48:29.331Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:49:39.205Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-06T03:49:39.265Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:49:39.291Z error: Error in register_user controller: User with the email: alice@example10.com already exists - 
+2023-12-06T03:49:41.126Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:50:38.377Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-06T03:50:38.414Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:50:38.436Z error: Error in register_user controller: User with the email: alice@example10.com already exists - 
+2023-12-06T03:50:39.650Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:51:49.528Z info: [1m[36mServer Listening at PORT 4000 in test mode[39m[22m - 
+2023-12-06T03:51:49.568Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:51:49.588Z error: Error in register_user controller: User with the email: alice@example10.com already exists - 
+2023-12-06T03:51:51.087Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:54:47.957Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T03:54:47.974Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T03:58:01.719Z error: jwt expired - TokenExpiredError: jwt expired
+    at /home/ishangawali/test-sb/SB_Assignment/node_modules/jsonwebtoken/verify.js:190:21
+    at getSecret (/home/ishangawali/test-sb/SB_Assignment/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/ishangawali/test-sb/SB_Assignment/node_modules/jsonwebtoken/verify.js:101:10)
+    at /home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:26:34
+    at Generator.next (<anonymous>)
+    at /home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:4:12)
+    at protectRoute (/home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:20:12)
+    at Layer.handle [as handle_request] (/home/ishangawali/test-sb/SB_Assignment/node_modules/express/lib/router/layer.js:95:5)
+2023-12-06T03:58:22.888Z error: Error in User Login: Invalid password - 
+2023-12-06T03:58:43.885Z error: Error in User Login: Invalid password - 
+2023-12-06T03:58:48.375Z error: Error in User Login: Invalid password - 
+2023-12-06T03:58:55.219Z error: Error in User Login: Invalid password - 
+2023-12-06T03:59:53.664Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T03:59:53.681Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:00:02.725Z info: Message sent: %s - 
+2023-12-06T04:05:23.997Z error: Error in User Login: Invalid password - 
+2023-12-06T04:06:07.006Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:06:07.027Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:06:12.877Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:06:12.891Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:06:48.356Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:06:48.387Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:06:57.435Z info: Message sent: %s - 
+2023-12-06T04:07:25.442Z error: Error in User Login: Invalid password - 
+2023-12-06T04:07:26.515Z error: Error in User Login: Invalid password - 
+2023-12-06T04:07:27.810Z error: Error in User Login: Invalid password - 
+2023-12-06T04:07:54.316Z error: Error in User Login: Invalid password - 
+2023-12-06T04:08:14.189Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:08:14.212Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:11:42.383Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:11:42.398Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:11:46.991Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:11:47.006Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:11:51.696Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:11:51.710Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:12:05.795Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:12:05.810Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T04:12:13.435Z info: Message sent: %s - 
+2023-12-06T04:18:30.381Z error: jwt expired - TokenExpiredError: jwt expired
+    at /home/ishangawali/test-sb/SB_Assignment/node_modules/jsonwebtoken/verify.js:190:21
+    at getSecret (/home/ishangawali/test-sb/SB_Assignment/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/home/ishangawali/test-sb/SB_Assignment/node_modules/jsonwebtoken/verify.js:101:10)
+    at /home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:26:34
+    at Generator.next (<anonymous>)
+    at /home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:4:12)
+    at protectRoute (/home/ishangawali/test-sb/SB_Assignment/src/middleware/auth.ts:20:12)
+    at Layer.handle [as handle_request] (/home/ishangawali/test-sb/SB_Assignment/node_modules/express/lib/router/layer.js:95:5)
+2023-12-06T04:23:10.165Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T04:23:10.179Z info: [1m[32mMongoDB connected[39m[22m - 

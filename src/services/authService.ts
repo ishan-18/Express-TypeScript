@@ -88,7 +88,10 @@ export class AuthService {
             throw new Error('Invalid token');
         }
 
-        await AuthDao.updateUserAfterResetPassword(user, newPassword)
+        const hashedPassword = await hashPassword(newPassword);
+        await AuthDao.updateUserAfterResetPassword(user, hashedPassword)
+
+        user.password = hashedPassword
 
         return user;
     }
