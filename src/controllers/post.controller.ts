@@ -2,6 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { v4 as uuidv4 } from 'uuid'
 import { AuthService } from "../services/authService";
 import { PostService } from "../services/postService";
+import logger from "../utils/common/logger";
 import { UserRole } from "../utils/enums";
 import { postValidator } from "../utils/validator/validate";
 
@@ -14,7 +15,7 @@ export class PostController {
                 data: posts,
             });
         } catch (error: any) {
-            console.error(`Error fetching posts: ${error.message}`);
+            logger.error(`Error fetching posts: ${error.message}`);
             res.status(500).json({
                 success: false,
                 msg: error.message,
@@ -58,7 +59,7 @@ export class PostController {
                 })
             }
         } catch (error: any) {
-            console.error(`Error updating post report: ${error.message}`);
+            logger.error(`Error updating post report: ${error.message}`);
             res.status(500).json({
                 success: false,
                 msg: error.message,
@@ -106,7 +107,7 @@ export class PostController {
                 })
             }
         } catch (error: any) {
-            console.error(`Error creating post: ${error.message}`);
+            logger.error(`Error creating post: ${error.message}`);
             res.status(500).json({
                 success: false,
                 msg: error.message,
@@ -126,7 +127,7 @@ export class PostController {
                 msg: 'Post deleted successfully',
             });
         } catch (error: any) {
-            console.error(`Error deleting post: ${error.message}`);
+            logger.error(`Error deleting post: ${error.message}`);
             res.status(500).json({
                 success: false,
                 msg: 'Internal Server Error',

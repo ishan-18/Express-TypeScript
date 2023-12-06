@@ -1,4 +1,5 @@
 import nodemailer, { Transporter } from 'nodemailer';
+import logger from './logger';
 
 interface EmailOptions {
   email: string;
@@ -25,7 +26,7 @@ const sendEmail = async (options: EmailOptions): Promise<void> => {
 
   const info = await transporter.sendMail(message);
 
-  console.log('Message sent: %s', info.messageId);
+  logger.info('Message sent: %s', info.messageId);
 };
 
 export default sendEmail;
