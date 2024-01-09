@@ -272,3 +272,74 @@ info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m
     at Layer.handle [as handle_request] (/home/ishangawali/test-sb/SB_Assignment/node_modules/express/lib/router/layer.js:95:5)
 2023-12-06T04:23:10.165Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
 2023-12-06T04:23:10.179Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T11:32:12.850Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T11:32:12.871Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T11:32:41.165Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T11:32:41.168Z error: [1m[31mError Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"[39m[22m - 
+2023-12-06T11:32:53.015Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T11:32:53.032Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T11:33:01.728Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T11:33:01.744Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T12:08:09.323Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T12:08:09.352Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T12:08:20.865Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T12:08:20.890Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T12:09:43.546Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T12:09:43.567Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T12:11:15.157Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T12:11:15.195Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T12:11:23.327Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T12:11:23.358Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-06T12:11:55.916Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-06T12:11:55.953Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-11T08:02:10.943Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-11T08:02:11.012Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-11T08:02:23.938Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-11T08:02:23.958Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-11T08:06:51.898Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2023-12-11T08:06:51.915Z info: [1m[32mMongoDB connected[39m[22m - 
+2023-12-11T08:07:03.589Z error: Error in User Login: Invalid password - 
+2024-01-09T08:02:05.990Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:02:06.023Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:07:33.276Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:07:33.289Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:07:48.138Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:07:48.156Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:07:55.074Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:07:55.093Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:11:02.418Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:11:02.443Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:11:22.547Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:11:22.563Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:12:15.887Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:12:15.901Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:13:11.100Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:13:11.114Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:17:09.861Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:17:09.875Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:17:54.156Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:17:54.171Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:19:55.343Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:19:55.356Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:20:00.798Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:20:00.817Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:21:49.257Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:21:49.270Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:22:01.614Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:22:01.629Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:22:32.726Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:22:32.740Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:22:56.473Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:22:56.499Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:28:48.476Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:28:48.488Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:29:38.340Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:29:38.355Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:30:32.368Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:30:32.388Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:30:56.790Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:30:56.804Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:31:11.781Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:31:11.797Z info: [1m[32mMongoDB connected[39m[22m - 
+2024-01-09T08:31:25.858Z info: [1m[36mServer Listening at PORT 4000 in development mode[39m[22m - 
+2024-01-09T08:31:25.872Z info: [1m[32mMongoDB connected[39m[22m - 

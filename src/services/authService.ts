@@ -4,6 +4,7 @@ import { AuthDao } from '../dao/authDao';
 import { IUserDetails } from '../interfaces/user'
 import { hashPassword } from '../utils/common/hashing';
 import crypto from 'crypto'
+import User from '../model/User';
 
 export class AuthService {
     static async registerUser(userDetails: IUserDetails): Promise<string> {
@@ -61,6 +62,20 @@ export class AuthService {
         const resetToken = AuthDao.getResetPasswordToken(user.email)
 
         return resetToken
+    }
+
+    static async saveProfileImage(userId: string, filePath: string): Promise<void> {
+        try {
+          const user = await User.findById(userId);
+    
+          if (user) {
+            const profile = await AuthDao.saveProfileImage(userId, filePath)
+          } else {
+            throw new Error('User not found');
+          }
+        } catch (error) {
+          throw new Error(`Error saving profile image path: ${error}`);
+        }
     }
 
     private static generateToken(user: IUserDetails): string {

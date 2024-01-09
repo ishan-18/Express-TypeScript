@@ -55,4 +55,17 @@ export class AuthDao {
             new: true
         }).exec();
     }
+
+    static async saveProfileImage(userId: string, filePath: string): Promise<void> {
+        try {
+          const user = await User.findById(userId);
+    
+          if (user) {
+            user.profile_image = filePath;
+            await user.save();
+          }
+        } catch (error) {
+          throw new Error('Error saving profile image path');
+        }
+    }
 }

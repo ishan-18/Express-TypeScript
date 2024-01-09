@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { AuthController } from '../controllers/auth.controller';
 import { protectRoute, roleCheck } from '../middleware/auth';
 import { UserRole } from '../utils/enums';
+import uploadMiddleware from '../utils/multer';
 
 const router: Router = Router();
 const API_VERSION: string = "/v1"
@@ -13,5 +14,7 @@ router.get(`${API_VERSION}/getusers`, protectRoute, roleCheck(UserRole.ADMIN), A
 
 router.post(`${API_VERSION}/forgotpassword`, AuthController.forgotPassword)
 router.put(`${API_VERSION}/resetpassword/:resettoken`, AuthController.resetPassword)
+
+router.put(`${API_VERSION}/profile_image`, protectRoute, uploadMiddleware, AuthController.handleFileUpload)
 
 export default router;

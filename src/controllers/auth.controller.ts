@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { AuthService } from '../services/authService';
 import sendEmail from '../utils/common/sendEmail';
 import logger from '../utils/common/logger';
+import path from 'path';
 
 export class AuthController {
     static async register_user(req: Request, res: Response, next: NextFunction): Promise<void> {
@@ -185,5 +186,43 @@ export class AuthController {
                 msg: error.message
             });
         }
-    } 
+    }
+
+    static async handleFileUpload(req: Request, res: Response): Promise<void> {
+        try {
+            if (req.file) {
+                const userId = req.user?._id;
+                if (!userId) {
+                    res.status(401).json({
+                        success: false,
+                        msg: 'Unauthorized: User ID not found',
+                    });
+                    return
+                }
+                const filePath = req.file.path;
+
+                const allowedFileTypes = ['.jpg', '.jpeg', '.png'];
+                const fileExtension = path.extname(req.file.originalname).toLowerCase();
+
+                if (!allowedFileTypes.includes(fileExtension)) {
+                    res.status(400).send('Only JPG and PNG files are allowed.');
+                    return;
+                }
+
+                const user = await AuthService.getMe(userId);
+                if (!user) {
+                    res.status(404).send('User not found');
+                    return;
+                }
+
+                const savedFilePath = await AuthService.saveProfileImage(userId, filePath);
+                res.send(`File uploaded successfully! Path: ${user.profile_image}`);
+            } else {
+                res.status(400).send('No file uploaded.');
+            }
+        } catch (error) {
+            console.error('Error handling file upload:', error);
+            res.status(500).send(`Internal Server Error: ${error}`);
+        }
+    }
 }

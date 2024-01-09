@@ -20,6 +20,7 @@ export interface IUserDetails{
     password: string;
     phone: IPhoneDetails;
     address: IAddressDetails;
+    profile_image?: string,
     reset_password_token?: string;
     reset_password_expire?: Date;
     role: UserRole.NORMALUSER | UserRole.ADMIN;

@@ -1,3 +1,4 @@
+import { string } from 'joi';
 import { Schema, model, Document } from 'mongoose';
 import { v4 as uuidv4 } from 'uuid'
 import { IAddressDetails, IPhoneDetails, IUserDetails } from '../interfaces/user';
@@ -62,6 +63,10 @@ const userSchema = new Schema<IUserDetails>({
     },
     phone: phoneSchema,
     address: addressSchema,
+    profile_image: {
+        type: String,
+        default: ''
+    },
     reset_password_token: String,
     reset_password_expire: Date,
     role: {

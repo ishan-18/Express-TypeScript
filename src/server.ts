@@ -28,11 +28,6 @@ app.use(cors())
 // const csrfProtection = csurf({ cookie: true });
 // app.use(csrfProtection);
 
-// app.use((req, res, next) => {
-//   res.locals.csrfToken = req.csrfToken();
-//   next();
-// });
-
 if(process.env.NODE_ENV === 'development'){
     app.use(morgan('dev'));
 }
